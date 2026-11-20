@@ -1,0 +1,209 @@
+body {
+  font-family: 'Inter', 'Redaction';
+  background-color: aliceblue;
+  color: #212121;
+  margin: 0;
+  line-height: 0.8;
+  font-size: small;
+}
+
+.surname {
+  margin-left: 30px;
+  padding: 20px;
+}
+
+.container {
+  transform: translateY(-50px);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 00px;
+  padding-left: 475px;
+}
+
+nav {
+  background-color: aliceblue;
+  padding: 10px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  margin: 80px;
+  transition: color 0.5s ease, transform 0.5s ease;
+}
+
+nav a:hover {
+  color: gray;
+  transform: translateY(-3px);
+}
+
+
+.menu {
+  background-color: aliceblue;
+  position: absolute;
+  left: 58%;
+  transform: translate(15%, -265%);
+}
+
+.contact {
+  background-color: aliceblue;
+  position: absolute;
+  left: 57.7%;
+  transform: translate(14%, -195%);
+}
+
+.github {
+  position: absolute;
+  right: 76%;
+  transform: translate(1650%, -180%);
+}
+
+.github {
+  display: inline-block;
+}
+
+.github img {
+  width: 65px;
+  height: auto;
+  transition: transform 0.4s ease, filter 0.4s ease, opacity 0.4s ease;
+}
+
+.github img:hover {
+  transform: scale(0.85);
+  filter: grayscale(80%);
+  opacity: 0.6;
+}
+
+main {
+  max-width: 900px;
+  margin: 100px auto;
+  padding: 0 30px;
+  line-height: 1.7;
+}
+
+.about {
+  margin-bottom: 100px;
+}
+
+.about h1 {
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+
+.about p {
+  max-width: 700px;
+  font-size: 17px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+
+main h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #212121;
+}
+
+
+.interests {
+  margin-bottom: 100px;
+}
+
+.interest-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.interest {
+  flex: 1;
+  min-width: 200px;
+  padding: 25px;
+  background-color: white;
+  border: 1px solid #ddd;
+}
+
+.interest h3 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.interest p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.skills {
+  margin-bottom: 100px;
+}
+
+.skill-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.skill-box span {
+  border: 1px solid #212121;
+  padding: 10px 20px;
+  font-size: 15px;
+}
+
+
+.projects {
+  margin-bottom: 100px;
+}
+
+.projects p {
+  font-size: 17px;
+  color: #555;
+}
+
+
+.contact-section {
+  margin-bottom: 80px;
+}
+
+.contact-section p {
+  color: #555;
+}
+
+
+footer {
+  border-top: 1px solid #ccc;
+  padding: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+footer p {
+  margin: 8px;
+}
+
+@media (max-width: 600px) {
+
+  main {
+    margin: 60px auto;
+    padding: 0 20px;
+  }
+
+  .about h1 {
+    font-size: 34px;
+  }
+
+  .interest-list {
+    flex-direction: column;
+  }
+
+  main h2 {
+    font-size: 24px;
+  }
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
